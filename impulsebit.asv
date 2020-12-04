@@ -1,0 +1,8 @@
+t = linspace(0,2*pi,64);
+x = .3*square(2*t);
+
+%%
+%Plot data
+plot(t/pi,x,'.-',t/pi,1.15*sin(2*t))
+xlabel('t / \pi')
+grid on
